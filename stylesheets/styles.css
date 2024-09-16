@@ -241,7 +241,6 @@ nav {
 
 
 .more-info p {
-    /* font-size: 0.9rem; */
     font-size: clamp(0.8rem, 2vw, 1rem);
     line-height: 1.4;
 }
@@ -317,15 +316,11 @@ nav {
     .nav-container {
         flex-wrap: wrap;
     }
-    .nav-logo {
-        /* flex: 1; */
-    }
     .nav-toggle {
         display: block;
         background: transparent;
         border: none;
         color: #fff;
-        /* font-size: 1.5rem; */
         cursor: pointer;
         order: 3;
     }
@@ -395,10 +390,6 @@ nav {
     .hero {
         padding: 1rem 1rem;
     }
-
-    /* .hero h1 {
-        font-size: 3.5rem;
-    } */
 
     .hero-content {
         display: flex;
@@ -470,7 +461,6 @@ nav {
 	color:#800000;
 }
  .alumni-testimonial-container{
- 	/* min-height: 100vh; */
  	padding:80px 0;
  }
 
@@ -552,7 +542,6 @@ nav {
 }
 
 .alumni-testimonial-container .alumni-testimonial-items .item-inner .alumni-name{
-	/* font-size: 1.2em; */
 	font-size: clamp(1.1rem, 2.5vw, 1.3rem);
 	font-weight: 600;
 	margin-bottom: 10px;
@@ -568,7 +557,6 @@ nav {
 }
 
 .alumni-testimonial-container .alumni-testimonial-items .item-inner h3{
-	/* font-size: 1.4em; */
 	font-size: clamp(1.25rem, 2.5vw, 2rem);
 	color:#000000;
 	margin-bottom: 30px;
@@ -587,7 +575,6 @@ nav {
 
 .alumni-testimonial-container .alumni-testimonial-items .item-inner p{
 	color:#000000;
-	/* font-size: 0.9rem; */
 	font-size: clamp(0.8rem, 2.5vw, 1rem);
 	margin:0 0 3px;
 }
@@ -651,7 +638,6 @@ nav {
 .alumni-testimonial-popup-box .popup-header h3{
 	margin:0;
 	color:#800000;
-	/* font-size: 20px; */
 	font-size: clamp(1.25rem, 2.5vw, 2rem);
 }
 .alumni-testimonial-popup-box .popup-header .popup-close-icon{
@@ -681,8 +667,6 @@ nav {
 
 .alumni-testimonial-popup-box .popup-body{
 	padding: 15px;
-	/* max-height: 600px; */
-	/* overflow-y: auto; */
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -709,7 +693,6 @@ nav {
 }
 
 .alumni-testimonial-popup-box .popup-body .alumni-name{
-	/* font-size: 20px; */
 	font-size: clamp(1.1rem, 2.5vw, 1.3rem);
 	font-weight: 600;
 	margin-bottom: 10px;
